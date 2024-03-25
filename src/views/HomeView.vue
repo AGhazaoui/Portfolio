@@ -74,7 +74,7 @@ function onPress(item: string) {
         />
       </div>
       <div
-        class="h-[80%] w-[60%] text-base flex flex-col justify-center items-center space-y-12 sm:text-3xl lg:text-5xl xl:text-4xl"
+        class="h-[80%] w-[60%] text-base flex flex-col justify-center items-center space-y-12 sm:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl"
       >
         <p class="font-medium font-sans text-neutralDark">
           From my earliest days, I've been driven by a simple desire: to create experiences that
@@ -135,7 +135,7 @@ function onPress(item: string) {
       class="flex flex-col text-3xl justify-evenly align-center w-[90%] h-[95%] space-x-12 xl:flex-row xl:h-[80%]"
     >
       <div
-        class="h-[80%] w-[60%] text-base flex flex-col justify-center items-center space-y-12 sm:text-3xl lg:text-5xl xl:text-4xl"
+        class="h-[80%] w-[60%] text-base flex flex-col justify-center items-center space-y-12 sm:text-3xl lg:text-4xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl"
       >
         <p class="font-medium hidden font-sans text-neutralDark">
           From my earliest days, I've been driven by a simple desire: to create experiences that
@@ -174,7 +174,7 @@ function onPress(item: string) {
     class="flex align-center justify-center bg-[url('/src/assets/img/bg1.jpg')] bg-no-repeat bg-cover bg-center"
   >
     <div class="flex flex-col justify-evenly align-center w-[90%] h-[90%] space-x-24 xl:flex-row">
-      <div class="flex align-center justify-center h-[80%] flex-col space-y-32 w-[90%] xl:w-[50%]">
+      <div class="flex align-center justify-center h-[80%] flex-col space-y-32 w-[90%] 2xl:w-[50%]">
         <div class="space-y-4">
           <div class="flex space-x-4 align-end">
             <v-img
@@ -185,13 +185,13 @@ function onPress(item: string) {
               :max-width="42"
             />
             <h1
-              class="text-4xl font-bold font-sans text-primaryLight underline sm:text-5xl lg:text-6xl xl:text-6xl"
+              class="text-4xl font-bold font-sans text-primaryLight underline sm:text-5xl lg:text-5xl xl:text-4xl 2xl:text-5xl"
             >
               My Techstack
             </h1>
           </div>
           <p
-            class="text-xl font-medium font-sans text-neutralDark sm:text-3xl lg:text-4xl xl:text-4xl"
+            class="text-xl font-medium font-sans text-neutralDark sm:text-3xl lg:text-3xl xl:text-3xl 2xl:text-4xl"
           >
             Full Stack Engineering embodies my passion for technology and thirst for learning. It
             offers diverse challenges and the chance to make a tangible impact while fostering
@@ -207,7 +207,7 @@ function onPress(item: string) {
         </GridCard>
       </div>
 
-      <div class="w-[40%] hidden align-center justify-evenly h-[70%] flex-col space-y-12 xl:flex">
+      <div class="w-[40%] hidden align-center justify-center h-[70%] flex-col space-y-12 xl:flex">
         <GridCard>
           <IconBlock v-for="(url, key) in tools" v-bind:key="key" @click="onPress(key)">
             <img :src="url" />
