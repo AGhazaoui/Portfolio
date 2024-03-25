@@ -64,13 +64,8 @@ function onPress(item: string) {
       class="flex flex-col text-3xl justify-evenly align-center w-[90%] h-[90%] xl:space-x-12 xl:flex-row xl:h-[80%]"
     >
       <div class="rounded-lg hidden h-full w-[90%] items-center xl:h-[80%] xl:w-[40%] xl:flex">
-        <v-img
-          src="/src/assets/img/morocco.jpg"
-          :max-height="800"
-          :max-width="800"
-          cover
-          position="bottom"
-          class="shadow-xl ring-neutralLight ring-8 rounded ring-opacity-50 w-full h-full"
+        <div
+          class="shadow-xl ring-neutralLight ring-8 rounded ring-opacity-50 bg-[url('/src/assets/img/morocco.jpg')] bg-no-repeat bg-cover bg-bottom min-h-full min-w-full"
         />
       </div>
       <div
@@ -116,13 +111,8 @@ function onPress(item: string) {
       <div
         class="rounded-lg h-full w-full flex justify-center items-center xl:h-[80%] xl:w-[40%] xl:hidden"
       >
-        <v-img
-          src="/src/assets/img/morocco.jpg"
-          :max-height="800"
-          :max-width="800"
-          cover
-          position="bottom"
-          class="shadow-xl ring-neutralLight ring-8 rounded ring-opacity-50 w-full h-full"
+        <div
+          class="shadow-xl ring-neutralLight ring-8 rounded ring-opacity-50 bg-[url('/src/assets/img/morocco.jpg')] bg-no-repeat bg-cover bg-bottom min-h-full min-w-full"
         />
       </div>
     </div>
@@ -177,13 +167,7 @@ function onPress(item: string) {
       <div class="flex align-center justify-center h-[80%] flex-col space-y-32 w-[90%] 2xl:w-[50%]">
         <div class="space-y-4">
           <div class="flex space-x-4 align-end">
-            <v-img
-              src="/src/assets/img/coding.png"
-              aspect-ratio="1/1"
-              :min-width="42"
-              :height="42"
-              :max-width="42"
-            />
+            <img src="/src/assets/img/coding.png" class="w-12 h-12" />
             <h1
               class="text-4xl font-bold font-sans text-primaryLight underline sm:text-5xl lg:text-5xl xl:text-4xl 2xl:text-5xl"
             >
